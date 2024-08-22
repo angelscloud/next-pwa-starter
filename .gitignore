@@ -3,6 +3,9 @@
 /coverage
 /logs
 
+/public/service-worker.js
+/public/workbox*.js
+
 .env
 
 .DS_Store
