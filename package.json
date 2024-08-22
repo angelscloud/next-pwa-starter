@@ -1,0 +1,44 @@
+{
+    "name": "next-pwa-starter",
+    "version": "1.0.0",
+    "description": "Next.js PWA starter template with push notifications and offline pages.",
+    "license": "MIT",
+    "private": false,
+    "author": "Martik Avagyan <dev@martikavagyan.com> (https://github.com/m-avagyan)",
+    "homepage": "https://angelscloud.github.io/next-pwa-starter",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/angelscloud/next-pwa-starter.git"
+    },
+    "bugs": {
+        "url": "https://github.com/angelscloud/next-pwa-starter/issues"
+    },
+    "scripts": {
+        "clean": "rm -rf dist tsconfig.tsbuildinfo",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "format": "prettier --write ./"
+    },
+    "dependencies": {
+        "firebase": "^10.13.0",
+        "next": "14.2.6",
+        "next-pwa": "^5.6.0",
+        "react": "^18",
+        "react-dom": "^18",
+        "workbox-window": "^7.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "@typescript-eslint/eslint-plugin": "^8.2.0",
+        "@typescript-eslint/parser": "^8.2.0",
+        "eslint": "^8",
+        "eslint-config-next": "14.2.6",
+        "eslint-plugin-prettier": "^5.2.1",
+        "prettier": "^3.0.3",
+        "typescript": "^5"
+    }
+}
