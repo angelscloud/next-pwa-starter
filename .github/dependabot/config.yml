@@ -1,0 +1,14 @@
+version: 2
+updates:
+    - package-ecosystem: 'npm'
+      directory: '/'
+      schedule:
+          interval: 'weekly'
+      target-branch: 'dev'
+      pull-request-branch-name:
+          separator: '-'
+      commit-message: 'chore(dependencies): update $PACKAGE_NAME from v$CURRENT_VERSION to v$NEW_VERSION.'
+      open-pull-requests-limit: 10
+      title: '[ dependabot ] - update $PACKAGE_NAME ( v$CURRENT_VERSION - v$NEW_VERSION )'
+      reviewers:
+          - '@m-avagyan'
